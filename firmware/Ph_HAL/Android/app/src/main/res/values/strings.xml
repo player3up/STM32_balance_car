@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BalanceCar</string>
+    <drawable name="clr_normal">#98c4e9</drawable>
+    <drawable name="clr_pressed">#20000000</drawable>
+</resources>

@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.86
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=FQQ8T-RH6J2-PF4IX-HKW6K-QS642-PRYLG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+D:\2.DASK\Embedded_development\ARM\balance-car-32\firmware\Part\Encoder\USER\MPU6050.uvprojx
+Project File Date:  12/24/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'MPU6050'
+compiling main.c...
+main.c(34): warning:  #223-D: function "Encoder_Init_TIM2" declared implicitly
+      Encoder_Init_TIM2();            //=====?????鹘涌?
+main.c(35): warning:  #223-D: function "Encoder_Init_TIM4" declared implicitly
+      Encoder_Init_TIM4();            //=====??始化??????2
+main.c(39): warning:  #223-D: function "Read_Encoder" declared implicitly
+          Encoder_Left = Read_Encoder(2);                           //===??取?????鞯?值
+main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=9156 RO-data=336 RW-data=60 ZI-data=1836  
+FromELF: creating hex file...
+"..\OBJ\MPU6050.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_MPU6050
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
